@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Eczar&display=swap');
+/* Css Variable(:root) */
+:root{
+    --main-bg-color: #2874f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: palegoldenrod; */
+    font-family: 'Comfortaa', cursive;
+}
+header{
+    /* background-color: black; */
+    background: var(--main-bg-color);
+}
+nav{
+    display: flex;
+}
+ .logo{
+     display: flex; 
+     align-items: center;
+} 
+.logo img{
+    width: 88px;
+    padding: 0 24px;
+}
+nav ul{
+    height: 69px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    padding: 0 24px;
+}
+nav ul li a{
+    color: papayawhip;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(255, 0, 174);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 24px;
+    border-radius: 6px;
+    margin: 0 16px 0 5px;
+    padding: 0 12px;
+}
+.slider{
+    margin:12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+.card{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.card-item{
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 22px;
+}
+
+.container{
+    min-height: calc(100vh - 69px - 12vh);
+}
+
+
+
+
+
+footer{
+    height: 12vh;
+    /* background-color: black; */
+    background: var(--main-bg-color);
+    color: white;
+}
